@@ -1,6 +1,5 @@
-import useCounter from '../hooks/useCounter';
-
 import Card from './Card';
+import useCounter from '../hooks/use-counter';
 
 const ForwardCounter = () => {
   const counter = useCounter();
